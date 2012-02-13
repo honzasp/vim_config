@@ -1,0 +1,9 @@
+[submodule "bundle/ctrl.p"]
+	path = bundle/ctrl.p
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "bundle/vim-easymotion"]
+	path = bundle/vim-easymotion
+	url = https://github.com/Lokaltog/vim-easymotion.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
