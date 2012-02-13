@@ -16,3 +16,9 @@
 [submodule "bundle/Rename2"]
 	path = bundle/Rename2
 	url = https://github.com/vim-scripts/Rename2.git
+[submodule "bundle/solarized"]
+	path = bundle/solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "helpers/gnome-terminal-colors-solarized"]
+	path = helpers/gnome-terminal-colors-solarized
+	url = https://github.com/sigurdga/gnome-terminal-colors-solarized.git
