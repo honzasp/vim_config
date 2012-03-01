@@ -25,3 +25,6 @@
 [submodule "bundle/rspec"]
 	path = bundle/rspec
 	url = https://github.com/skwp/vim-rspec.git
+[submodule "bundle/treetop.vim"]
+	path = bundle/treetop.vim
+	url = https://github.com/nanki/treetop.vim.git
