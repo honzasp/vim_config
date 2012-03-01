@@ -22,3 +22,6 @@
 [submodule "helpers/gnome-terminal-colors-solarized"]
 	path = helpers/gnome-terminal-colors-solarized
 	url = https://github.com/sigurdga/gnome-terminal-colors-solarized.git
+[submodule "bundle/treetop.vim"]
+	path = bundle/treetop.vim
+	url = https://github.com/nanki/treetop.vim.git
