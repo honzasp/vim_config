@@ -22,3 +22,6 @@
 [submodule "helpers/gnome-terminal-colors-solarized"]
 	path = helpers/gnome-terminal-colors-solarized
 	url = https://github.com/sigurdga/gnome-terminal-colors-solarized.git
+[submodule "bundle/rspec"]
+	path = bundle/rspec
+	url = https://github.com/skwp/vim-rspec.git
