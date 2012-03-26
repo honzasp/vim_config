@@ -66,6 +66,7 @@ set previewheight=5
 set ignorecase
 set smartcase
 set incsearch
+set gdefault
 
 " Plugins
 
