@@ -37,6 +37,3 @@
 [submodule "bundle/vim-gemfile"]
 	path = bundle/vim-gemfile
 	url = https://github.com/tobiassvn/vim-gemfile.git
-[submodule "bundle/vim-jade"]
-	path = bundle/vim-jade
-	url = https://github.com/digitaltoad/vim-jade.git
