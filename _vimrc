@@ -57,7 +57,7 @@ set autoindent
 set formatoptions=tcqrn
 set textwidth=80
 
-set scrolloff=12
+set scrolloff=2
 set sidescrolloff=20
 set previewheight=5
 
