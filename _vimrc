@@ -78,5 +78,5 @@ let g:solarized_termtrans = 1
 call pathogen#infect()
 
 " Color schema
-set background=dark
+set background=light
 colorscheme solarized
