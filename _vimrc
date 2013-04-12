@@ -80,3 +80,6 @@ call pathogen#infect()
 " Color schema
 set background=light
 colorscheme solarized
+
+" Disable concealing in Rust
+let g:no_rust_conceal=1
