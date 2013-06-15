@@ -83,3 +83,4 @@ colorscheme solarized
 
 " Disable concealing in Rust
 let g:no_rust_conceal=1
+autocmd FileType rust set textwidth=100
