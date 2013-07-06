@@ -72,7 +72,6 @@ set gdefault
 
 let mapleader = ","
 
-let g:EasyMotion_do_shade = 0
 let g:solarized_termtrans = 1
 
 call pathogen#infect()
@@ -80,7 +79,22 @@ call pathogen#infect()
 " Color schema
 set background=light
 colorscheme solarized
+let g:solarized_bold = 0
 
 " Disable concealing in Rust
 let g:no_rust_conceal=1
 autocmd FileType rust set textwidth=100
+
+" from nerdtree's README
+map <C-n> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+autocmd vimenter * if !argc() | NERDTree | endif
+
+" EasyMotion
+let g:EasyMotion_do_shade = 1
+hi link EasyMotionTarget Todo
+hi link EasyMotionShade  Comment
+
+let g:EasyMotion_grouping = 1
+let g:EasyMotion_keys = 'fdsagtrvchuyjnbiklnexwzqimopFDSAGTRVCHUYJNBIKLNEXWZQIMOP'
+let g:EasyMotion_leader_key = '<tab>'
