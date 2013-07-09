@@ -35,8 +35,6 @@ nmap <C-h> <C-W>h
 nmap <C-j> <C-W>j
 nmap <C-k> <C-W>k
 nmap <C-l> <C-W>l
-nmap <Enter> <C-W>w
-nmap <S-Enter> <C-W>W
 
 " Text formatting
 
@@ -72,14 +70,13 @@ set gdefault
 
 let mapleader = ","
 
-let g:solarized_termtrans = 1
-
 call pathogen#infect()
 
-" Color schema
+" Color scheme
 set background=light
 colorscheme solarized
 let g:solarized_bold = 0
+let g:solarized_termtrans = 1
 
 " Disable concealing in Rust
 let g:no_rust_conceal=1
