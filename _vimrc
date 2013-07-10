@@ -22,6 +22,7 @@ set number
 
 set nrformats=alpha,hex
 set showmatch
+set matchpairs+=<:>
 
 set autowrite
 
