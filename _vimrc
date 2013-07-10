@@ -86,7 +86,6 @@ autocmd FileType rust set textwidth=100
 " from nerdtree's README
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-autocmd vimenter * if !argc() | NERDTree | endif
 
 " EasyMotion
 let g:EasyMotion_do_shade = 1
