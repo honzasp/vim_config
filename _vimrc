@@ -89,3 +89,6 @@ hi link EasyMotionShade  Comment
 let g:EasyMotion_grouping = 1
 let g:EasyMotion_keys = 'fdsagtrvchuyjnbiklnexwzqimopFDSAGTRVCHUYJNBIKLNEXWZQIMOP'
 let g:EasyMotion_leader_key = '<tab>'
+
+" CtrlP
+let g:ctrlp_working_path_mode = '0'
