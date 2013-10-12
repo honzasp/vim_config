@@ -70,7 +70,7 @@ call pathogen#infect()
 " Color scheme
 let g:solarized_bold = 0
 let g:solarized_termtrans = 1
-set background=dark
+set background=light
 colorscheme solarized
 
 " Disable concealing in Rust
