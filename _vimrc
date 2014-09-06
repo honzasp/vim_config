@@ -71,7 +71,7 @@ call pathogen#infect()
 let g:solarized_bold = 0
 let g:solarized_termtrans = 1
 set background=light
-colorscheme solarized
+colorscheme default
 
 " Disable concealing in Rust
 let g:no_rust_conceal=1
