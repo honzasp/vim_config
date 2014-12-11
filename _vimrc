@@ -91,3 +91,12 @@ let g:EasyMotion_leader_key = '<tab>'
 
 " CtrlP
 let g:ctrlp_working_path_mode = '0'
+
+function InvokeBuild(command)
+  wa
+  cexp system(a:command)
+endfunction
+
+command Tup call InvokeBuild('tup')
+command Cargo call InvokeBuild('cargo build')
+command Cabal call InvokeBuild('cabal build')
