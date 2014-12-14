@@ -75,6 +75,7 @@ colorscheme default
 
 " Disable concealing in Rust
 let g:no_rust_conceal=1
+let g:rust_recommended_style=0
 
 " from nerdtree's README
 map <C-n> :NERDTreeToggle<CR>
