@@ -34,3 +34,6 @@
 [submodule "bundle/vim-tup"]
 	path = bundle/vim-tup
 	url = https://github.com/dpwright/vim-tup.git
+[submodule "bundle/vim-cpp"]
+	path = bundle/vim-cpp
+	url = https://github.com/vim-jp/vim-cpp.git

@@ -7,7 +7,7 @@ set vb t_vb=
 set confirm
 
 syntax on
-set hlsearch
+set nohlsearch
 
 set history=50
 set wildmenu
@@ -56,8 +56,6 @@ set previewheight=5
 
 " Searching and replacing
 
-set ignorecase
-set smartcase
 set incsearch
 set gdefault
 
@@ -80,6 +78,9 @@ let g:rust_recommended_style=0
 " from nerdtree's README
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+" recognize .tpp as C++
+autocmd BufNewFile,BufRead *.tpp set filetype=cpp
 
 " EasyMotion
 let g:EasyMotion_do_shade = 1
