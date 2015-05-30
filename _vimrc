@@ -59,6 +59,10 @@ set previewheight=5
 set incsearch
 set gdefault
 
+" Splits
+set splitbelow
+set splitright
+
 " Plugins
 
 let mapleader = ","
