@@ -37,3 +37,6 @@
 [submodule "bundle/vim-cpp"]
 	path = bundle/vim-cpp
 	url = https://github.com/vim-jp/vim-cpp.git
+[submodule "bundle/vim-tmux-navigator"]
+  path = bundle/vim-tmux-navigator
+  url = https://github.com/christoomey/vim-tmux-navigator.git
