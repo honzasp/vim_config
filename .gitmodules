@@ -41,5 +41,5 @@
   path = bundle/vim-tmux-navigator
   url = https://github.com/christoomey/vim-tmux-navigator.git
 [submodule "bundle/vim-dispatch"]
-  path = bundle/vim-dispatch
-  url = https://github.com/tpope/vim-dispatch.git
+	path = bundle/vim-dispatch
+	url = https://github.com/tpope/vim-dispatch
