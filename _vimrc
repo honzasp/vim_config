@@ -86,14 +86,28 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 " recognize .tpp as C++
 autocmd BufNewFile,BufRead *.tpp set filetype=cpp
 
-" EasyMotion
-let g:EasyMotion_do_shade = 1
-hi link EasyMotionTarget Todo
-hi link EasyMotionShade  Comment
-
-let g:EasyMotion_grouping = 1
-let g:EasyMotion_keys = 'fdsagtrvchuyjnbiklnexwzqimopFDSAGTRVCHUYJNBIKLNEXWZQIMOP'
-let g:EasyMotion_leader_key = '<tab>'
-
 " CtrlP
 let g:ctrlp_working_path_mode = '0'
+
+" Rainbow parentheses
+autocmd FileType clojure RainbowParenthesesToggle
+autocmd FileType clojure RainbowParenthesesLoadRound
+autocmd FileType clojure RainbowParenthesesLoadSquare
+autocmd FileType clojure RainbowParenthesesLoadBraces
+
+let g:rbpt_colorpairs = [
+    \ ['brown',       'RoyalBlue3'],
+    \ ['Darkblue',    'SeaGreen3'],
+    \ ['darkgreen',   'firebrick3'],
+    \ ['darkcyan',    'RoyalBlue3'],
+    \ ['darkred',     'SeaGreen3'],
+    \ ['darkmagenta', 'DarkOrchid3'],
+    \ ['brown',       'firebrick3'],
+    \ ['gray',        'RoyalBlue3'],
+    \ ['darkmagenta', 'DarkOrchid3'],
+    \ ['Darkblue',    'firebrick3'],
+    \ ['darkgreen',   'RoyalBlue3'],
+    \ ['darkcyan',    'SeaGreen3'],
+    \ ['darkred',     'DarkOrchid3'],
+    \ ['red',         'firebrick3'],
+    \ ]
