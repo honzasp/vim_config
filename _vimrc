@@ -85,29 +85,17 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 " recognize .tpp as C++
 autocmd BufNewFile,BufRead *.tpp set filetype=cpp
+" recognize .md as markdown
+autocmd BufNewFile,BufRead *.md set filetype=markdown
 
 " CtrlP
 let g:ctrlp_working_path_mode = '0'
 
-" Rainbow parentheses
-autocmd FileType clojure RainbowParenthesesToggle
-autocmd FileType clojure RainbowParenthesesLoadRound
-autocmd FileType clojure RainbowParenthesesLoadSquare
-autocmd FileType clojure RainbowParenthesesLoadBraces
+" Python indenting
+autocmd FileType python setlocal softtabstop=4
+autocmd FileType python setlocal tabstop=4
+autocmd FileType python setlocal shiftwidth=4
 
-let g:rbpt_colorpairs = [
-    \ ['brown',       'RoyalBlue3'],
-    \ ['Darkblue',    'SeaGreen3'],
-    \ ['darkgreen',   'firebrick3'],
-    \ ['darkcyan',    'RoyalBlue3'],
-    \ ['darkred',     'SeaGreen3'],
-    \ ['darkmagenta', 'DarkOrchid3'],
-    \ ['brown',       'firebrick3'],
-    \ ['gray',        'RoyalBlue3'],
-    \ ['darkmagenta', 'DarkOrchid3'],
-    \ ['Darkblue',    'firebrick3'],
-    \ ['darkgreen',   'RoyalBlue3'],
-    \ ['darkcyan',    'SeaGreen3'],
-    \ ['darkred',     'DarkOrchid3'],
-    \ ['red',         'firebrick3'],
-    \ ]
+" Enable project-specific .vimrc
+set exrc
+set secure
