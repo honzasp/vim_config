@@ -78,10 +78,7 @@ colorscheme default
 " Disable concealing in Rust
 let g:no_rust_conceal=1
 let g:rust_recommended_style=0
-
-" from nerdtree's README
-map <C-n> :NERDTreeToggle<CR>
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+let g:cargo_makeprg_params='build --color never'
 
 " recognize .tpp as C++
 autocmd BufNewFile,BufRead *.tpp set filetype=cpp
