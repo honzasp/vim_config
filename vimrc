@@ -70,9 +70,6 @@ let mapleader = ","
 call pathogen#infect()
 
 " Color scheme
-let g:solarized_bold = 0
-let g:solarized_termtrans = 1
-set background=light
 colorscheme default
 
 " Disable concealing in Rust
